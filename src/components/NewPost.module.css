@@ -1,0 +1,56 @@
+.form {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.form div:nth-child(1), .form div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form div textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form div input {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form div lable {
+    margin-bottom: 10px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.actions button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.actions button:hover {
+    background-color: #eee;
+}
